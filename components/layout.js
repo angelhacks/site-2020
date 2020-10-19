@@ -75,6 +75,12 @@ export default props => {
         <Link href="/about">
           <A variant="styles.navitem">About</A>
         </Link>
+        <Link href="https://2019.angelhacks.org">
+          <A variant="styles.navitem">2019 Site</A>
+        </Link>
+        <Link href="https://andover.angelhacks.org">
+          <A variant="styles.navitem">Andover</A>
+        </Link>
         <ColorButton
           sx={{ ml: [2, 3] }}
           onClick={e => {
