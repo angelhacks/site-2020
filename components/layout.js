@@ -75,8 +75,12 @@ export default props => {
         <Link href="/about">
           <A variant="styles.navitem">About</A>
         </Link>
-        <A href="https://2019.angelhacks.org" variant="styles.navitem">2019 Site</A>
-        <A href="https://andover.angelhacks.org" variant="styles.navitem">Andover</A>
+        <Link>
+          <A href="https://2019.angelhacks.org" variant="styles.navitem">2019 Site</A>
+        </Link>
+        <Link>
+          <A href="https://andover.angelhacks.org" variant="styles.navitem">Andover</A>
+        </Link>
         <Link href="/gallery">
           <A variant="styles.navitem">Gallery</A>
         </Link>
