@@ -8,10 +8,21 @@ import theme from './theme'
 const data = {
   sponsors: [
     {
+      name: 'Repl.it',
+      link: 'https://repl.it',
+      image:
+        'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Freplit.png?v=1566159656031'
+    },
+    {
       name: 'Hack Club Bank',
       link: 'https://hackclub.com/bank',
       image:
         'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206'
+    },
+    {
+      name: 'Frank.ly',
+      link: 'https://frank.ly',
+      image: 'https://angelhacks.org/static/frank-logo.png'
     },
   ],
   additionalSupport: [
@@ -20,6 +31,12 @@ const data = {
       link: 'https://stickermule.com/',
       image: 
         'https://angelhacks.org/static/stickermule-logo.png'
+    },
+    {
+      name: 'DeepAI',
+      link: 'https://deepai.org/',
+      image: 
+        'https://angelhacks.org/static/deepai-logo.png'
     },
   ]
 }
