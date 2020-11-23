@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default ({
   title = 'AngelHacks – Dedicated to giving back!',
-  description = 'A 12-hour hackathon for middle and high schoolers in Los Angeles.',
+  description = 'A weekend-long workshop-oriented hackathon for any and all beginners in the world!',
   image = 'https://angelhacks.org/static/banner-inverted.png',
   url = 'https://angelhacks.org'
 }) => (
@@ -52,8 +52,8 @@ export default ({
           '@context': 'http://schema.org/',
           '@type': 'Event',
           name: 'AngelHacks',
-          startDate: '2019-10-26T9:00',
-          endDate: '2019-10-26T21:00',
+          startDate: '2020-12-18T5:00',
+          endDate: '2019-12-20T21:00',
           description:
             'Register today for 12 hours of coding, fun, free food, and prizes. AngelHacks will be on October 26, 2019 and open to all middle and high school students.',
           isAccessibleForFree: true,
@@ -82,12 +82,12 @@ export default ({
             price: '0',
             priceCurrency: 'USD',
             availability: 'https://schema.org/InStock',
-            validFrom: '2019-04-01',
-            validThrough: '2019-06-22'
+            validFrom: '2020-05-01',
+            validThrough: '2020-12-27'
           },
           performer: {
             '@type': 'PerformingGroup',
-            name: 'AngelHacks Ad Astra Team'
+            name: 'AngelHacks Core Team'
           }
         })
       }}
