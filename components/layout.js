@@ -66,9 +66,9 @@ export default props => {
           </A>
         </Link>
         <Box sx={{ mx: 'auto' }} />
-        <Link href="/schedule">
+        {/* <Link href="/schedule">
           <A variant="styles.navitem">Schedule</A>
-        </Link>
+        </Link> */}
         <Link href="/register">
           <A variant="styles.navitem">Register</A>
         </Link>
@@ -143,7 +143,7 @@ export default props => {
             }}
           >
             <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit' }}>
-              AngelHacks, event run by Ad Astra Hack Club
+              AngelHacks, event run by the amazing AngelHacks team!
             </Text>
             <Text
               sx={{
