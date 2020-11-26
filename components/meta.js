@@ -55,7 +55,7 @@ export default ({
           startDate: '2020-12-18T5:00',
           endDate: '2019-12-20T21:00',
           description:
-            'Register today for 12 hours of coding, fun, free food, and prizes. AngelHacks will be on October 26, 2019 and open to all middle and high school students.',
+            'Register today for a weekend of coding, fun, free swag, and prizes. AngelHacks will be on December 18-20 and open to all students at all ages',
           isAccessibleForFree: true,
           url: 'https://angelhacks.org',
           image: 'https://angelhacks.org/static/logo-inverted.png',

@@ -20,7 +20,7 @@ const data = {
         'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206'
     },
     {
-      name: 'Frank.ly',
+      name: 'David and Daniil Libermans',
       link: 'https://frank.ly',
       image: 'https://angelhacks.org/static/frank-logo.png'
     },
@@ -37,6 +37,12 @@ const data = {
       link: 'https://deepai.org/',
       image: 
         'https://angelhacks.org/static/deepai-logo.png'
+    },
+    {
+      name: 'Github',
+      link: 'https://github.com/',
+      image: 
+        'https://angelhacks.org/static/Github-logo.png'
     },
   ]
 }
