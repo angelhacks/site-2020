@@ -25,6 +25,7 @@ export default class extends Document {
         <body>
           <Main />
           <NextScript />
+          <script> </script>
         </body>
       </html>
     )

@@ -52,10 +52,10 @@ export default ({
           '@context': 'http://schema.org/',
           '@type': 'Event',
           name: 'AngelHacks',
-          startDate: '2020-12-18T5:00',
-          endDate: '2019-12-20T21:00',
+          startDate: '2021-02-28T17:00',
+          endDate: '2020-02-26T9:00',
           description:
-            'Register today for a weekend of coding, fun, free swag, and prizes. AngelHacks will be on December 18-20 and open to all students at all ages',
+            'Register today for a weekend of coding, fun, free swag, and prizes. AngelHacks will be on February 26-28, 2021 and open to all students at all ages!',
           isAccessibleForFree: true,
           url: 'https://angelhacks.org',
           image: 'https://angelhacks.org/static/logo-inverted.png',
