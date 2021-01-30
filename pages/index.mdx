@@ -1,12 +1,21 @@
-import { Banner, List, Container, Callout, Gallery, FAQ, Team } from '../components/blocks'
-import { Header, Schedule } from '../components/blocks'
-import { Box, Button } from 'rebass'
-import Link from 'next/link'
+import {
+	Banner,
+	List,
+	Container,
+	Callout,
+	Gallery,
+	FAQ,
+	Team,
+} from "../components/blocks";
+import { Header, Schedule } from "../components/blocks";
+import { Box, Button } from "rebass";
+import Link from "next/link";
 // import CTA from '../components/cta'
-import Sponsors from '../components/sponsors'
-import Photo from '../components/photo'
+import Sponsors from "../components/sponsors";
+import Photo from "../components/photo";
 
 <Banner>
+
 
 # AngelHacks
 
@@ -14,8 +23,8 @@ import Photo from '../components/photo'
 
 February 26-28, 2021
 
-
 </Banner>
+
 
 <Container
 width="narrow"
@@ -33,17 +42,29 @@ sx={{
     }
   }}>
 
+
 **AngelHacks 2.0 will be over the course of 2 days.**
 You'll first choose which workshop you want to join, learn all the skills required with your mentor, get "speed-sorted" into a team, and come out the other side with an amazing project and (hopefully) a killer prize!
 
 </Container>
 
+
 <Gallery>
 
-<Photo showAlt alt="Sticker Exchange!" src="https://angelhacks.org/static/venue/stickexchange.jpg" />
-<Photo showAlt alt="Students build projects in groups" src="https://lh3.googleusercontent.com/OhKms3fdlopgcSVkKfzzwWyTR9iehbYTV53hU3gNBACz9GCodbyFLRYrNecnJ0R2SkutT-wZbTWCljW7E20CD9XCYek4A_oV06UA5NFZQDeIYsUJ-53ZAC7Yno5D7wu5Fald13yXn1gKcpJWx0d0eZkQx52-6Hh8Ffb8kyfaF1E7f53EAl01Lo30q1BeIFT-JOkBjmXh3VTRfCPcvDF4AUsWwjdKkKM17Yw0BZE0VKIherAXXiwpj_EeZXs9ZEWORzXqxggW_v_wylzlmPchUEBaaMEqAGYuVGzNiBpLdXNrws7P1R8rQKAmeTSQ_JkZLuONP9-IPcczxvGoiHzK_pjr1qJGwJcn4VAawFnXDDEr7Qf89xmVwUFXhQhlpBMD0ZjSdiXySMxs5v14-dBDVbW3HKntxagquQ7ZBV9TIm__r9pHpMKwDhMFKqGQvs7uQeij3DhrZyPNf2c4pCZ2kZu3MtGmJSrCWitdWpzAHRBeW6FzdQ0TTwpjqPj7UEKia1P8VZNmwZ3acz6sFsD-tm7j7761KJyTMtxemxpgO1PkewAs7GSySrU2icAmXf3eXqtdhoRe670xUKszTkM750-uNpWFRdsyj1Lg70cgpC3oqb73JEg7H3EiVVnLLKsZ1g5Z8fGYk0BYuTEX4cWE87AQXx7g6M6Tbjdxh-eXtKvGLdQpwWDyP6S3SViPPKCMCLRCNdOEWzxeaVZMYutoGAnZwwvJ2vQtlAPTc1lDQUbpTBSqKQ=w1910-h1432-no" />
+
+<Photo
+	showAlt
+	alt="Sticker Exchange!"
+	src="https://angelhacks.org/static/venue/stickexchange.jpg"
+/>
+<Photo
+	showAlt
+	alt="Students build projects in groups"
+	src="https://lh3.googleusercontent.com/OhKms3fdlopgcSVkKfzzwWyTR9iehbYTV53hU3gNBACz9GCodbyFLRYrNecnJ0R2SkutT-wZbTWCljW7E20CD9XCYek4A_oV06UA5NFZQDeIYsUJ-53ZAC7Yno5D7wu5Fald13yXn1gKcpJWx0d0eZkQx52-6Hh8Ffb8kyfaF1E7f53EAl01Lo30q1BeIFT-JOkBjmXh3VTRfCPcvDF4AUsWwjdKkKM17Yw0BZE0VKIherAXXiwpj_EeZXs9ZEWORzXqxggW_v_wylzlmPchUEBaaMEqAGYuVGzNiBpLdXNrws7P1R8rQKAmeTSQ_JkZLuONP9-IPcczxvGoiHzK_pjr1qJGwJcn4VAawFnXDDEr7Qf89xmVwUFXhQhlpBMD0ZjSdiXySMxs5v14-dBDVbW3HKntxagquQ7ZBV9TIm__r9pHpMKwDhMFKqGQvs7uQeij3DhrZyPNf2c4pCZ2kZu3MtGmJSrCWitdWpzAHRBeW6FzdQ0TTwpjqPj7UEKia1P8VZNmwZ3acz6sFsD-tm7j7761KJyTMtxemxpgO1PkewAs7GSySrU2icAmXf3eXqtdhoRe670xUKszTkM750-uNpWFRdsyj1Lg70cgpC3oqb73JEg7H3EiVVnLLKsZ1g5Z8fGYk0BYuTEX4cWE87AQXx7g6M6Tbjdxh-eXtKvGLdQpwWDyP6S3SViPPKCMCLRCNdOEWzxeaVZMYutoGAnZwwvJ2vQtlAPTc1lDQUbpTBSqKQ=w1910-h1432-no"
+/>
 
 <Box variant="card">
+
 
 ## A place for everyone.
 
@@ -51,46 +72,55 @@ Underrepresented students are systematically discouraged from pursuing tech. Sch
 
 </Box>
 
-<Photo showAlt alt="Student's presented their ideas to the crowd" src="https://lh3.googleusercontent.com/zofpd6vj_x_W0gcp1QELEMcOdBbS5vaeb1E3-rbMogsqzo57HMJ0o63vlyA7Q9I5N6F94wHuK7I8JJYRShajPd56XZyclGZQWsUAOUGn-76JiYEfDf_DEgo_wMCn2tp5IwmkOc4bYpXcEJTlBuVf1qBjvxL3e8bmQNvUV6NLIYFqudfHISiHR1K8ssaTBtB3l48dSxND6qFsx7wMbk-J20MYfaV6vTKJYW8wQ-WdQzlYwMhdZMwXkmftgXz9sjyQw0S0tZ8wSCNMOQqwIbeYCSi6z6uNgW-Ur41FBPaFE0m-u6EjRW0vNqiosla0fMfmwq4xEIIDK2RJ184JSJyC7zrx890jZDL5QyS4X_4lbld40nmUuTriAR-8o6XAgEgly6uQENmJDyTd2CCmnuzZZwv6bBg7UhY9lLwv0lpmdzHiN5CCf7xbrjcChGwjgUcJ6edutstLbVjWj_hpZtF-ETDzi9HBlGrbJ8NJLolbhNy9vjBNV_WXH9JK3jXemr7vhwNcKxRahBOtAhKWIpoZWi2LvwrArpfL2VBT47Zj5fr-mG0w5ckT6bqPp9pnTcZqJSA4L1BZ_uIfP4PrjCifZwITnnCZ2ng1OIKMRpjo-bcboRksNRHa3GTaVrbq9Hl6SdnIimc1tSxRwGT8Omh8QK-DMoQvW95-xqM6T3k8PJd_ifdEkcyndql1N0_-5KHnSi47dmSH3VwurNkAyFqXv9PMafxPMKmQKzCiy6s_Yq-MtsoeZA=w1910-h1432-no" />
+
+<Photo
+	showAlt
+	alt="Student's presented their ideas to the crowd"
+	src="https://lh3.googleusercontent.com/zofpd6vj_x_W0gcp1QELEMcOdBbS5vaeb1E3-rbMogsqzo57HMJ0o63vlyA7Q9I5N6F94wHuK7I8JJYRShajPd56XZyclGZQWsUAOUGn-76JiYEfDf_DEgo_wMCn2tp5IwmkOc4bYpXcEJTlBuVf1qBjvxL3e8bmQNvUV6NLIYFqudfHISiHR1K8ssaTBtB3l48dSxND6qFsx7wMbk-J20MYfaV6vTKJYW8wQ-WdQzlYwMhdZMwXkmftgXz9sjyQw0S0tZ8wSCNMOQqwIbeYCSi6z6uNgW-Ur41FBPaFE0m-u6EjRW0vNqiosla0fMfmwq4xEIIDK2RJ184JSJyC7zrx890jZDL5QyS4X_4lbld40nmUuTriAR-8o6XAgEgly6uQENmJDyTd2CCmnuzZZwv6bBg7UhY9lLwv0lpmdzHiN5CCf7xbrjcChGwjgUcJ6edutstLbVjWj_hpZtF-ETDzi9HBlGrbJ8NJLolbhNy9vjBNV_WXH9JK3jXemr7vhwNcKxRahBOtAhKWIpoZWi2LvwrArpfL2VBT47Zj5fr-mG0w5ckT6bqPp9pnTcZqJSA4L1BZ_uIfP4PrjCifZwITnnCZ2ng1OIKMRpjo-bcboRksNRHa3GTaVrbq9Hl6SdnIimc1tSxRwGT8Omh8QK-DMoQvW95-xqM6T3k8PJd_ifdEkcyndql1N0_-5KHnSi47dmSH3VwurNkAyFqXv9PMafxPMKmQKzCiy6s_Yq-MtsoeZA=w1910-h1432-no"
+/>
 
 </Gallery>
 
+
 <Container>
+
 
 ## FAQ
 
 <Callout sx={{ mx: [null, null, -3, -4] }}>
 <FAQ>
 
-- **Could I see last year's website?**
-  Yup! It's at [2019.angelhacks.org](https://2019.angelhacks.org). Thanks for being there last time, and we hope to see you again. You can find the recap video on youtube, [here](https://www.youtube.com/watch?v=rv_UycMxEsQ).
 
-- **How much does it cost? 💸**
-  Nothing! Registration and attendance are 100% free, with meals, drinks, swag, & workshops included. We'll even have prizes for the top scoring teams/individuals!
+-   **Could I see last year's website?**
+    Yup! It's at [2019.angelhacks.org](https://2019.angelhacks.org). Thanks for being there last time, and we hope to see you again. You can find the recap video on youtube, [here](https://www.youtube.com/watch?v=rv_UycMxEsQ).
 
-- **Who can participate? 🔭**
-  Any current student grades 6–12. If you’re under/over that age, [email us](mailto:hello@angelhacks.org) & we’ll see what we can do. And if you're interested in mentoring or helping out, hit us up too!
+-   **How much does it cost? 💸**
+    Nothing! Registration and attendance are 100% free, with meals, drinks, swag, & workshops included. We'll even have prizes for the top scoring teams/individuals!
 
-- **Hacking‽ Is that safe? 👨🏿‍💻**
-  No, we’re not “hacking” servers. The word is being constructively redefined for coding—apps, games, websites. It’s safe, supervised, & entirely educational. Now go look somewhere else, RSA.
+-   **Who can participate? 🔭**
+    Any current student grades 6–12. If you’re under/over that age, [email us](mailto:hello@angelhacks.org) & we’ll see what we can do. And if you're interested in mentoring or helping out, hit us up too!
 
-- **What can I make? 🤖**
-  Anything! A website, app, game, hardware hack, you name it. Judges will rate projects on creativity, technical skill demonstrated, polish, utility, and, last but not least, impact on the community.
+-   **Hacking‽ Is that safe? 👨🏿‍💻**
+    No, we’re not “hacking” servers. The word is being constructively redefined for coding—apps, games, websites. It’s safe, supervised, & entirely educational. Now go look somewhere else, RSA.
 
-- **What if I’m new to coding? 👾**
-  At AngelHacks, complete beginners are not only welcome, but expected! Learn as you go with our intro workshops & mentors.
+-   **What can I make? 🤖**
+    Anything! A website, app, game, hardware hack, you name it. Judges will rate projects on creativity, technical skill demonstrated, polish, utility, and, last but not least, impact on the community.
 
-- **Do I need a team? 👨‍👧‍👧**
-  Nope! You’ll have an opportunity to meet fellow hackers and make teams of up to 4—find some new friends, bring yours, or work alone.
+-   **What if I’m new to coding? 👾**
+    At AngelHacks, complete beginners are not only welcome, but expected! Learn as you go with our intro workshops & mentors.
 
-- **What should I bring? 🧳**
-  Plan to bring a student ID, computer (any kind), chargers, anything for your hack (e.g. hardware), and enthusiasm! We'll provide snacks and meals, so you don't have to worry about that!
+-   **Do I need a team? 👨‍👧‍👧**
+    Nope! You’ll have an opportunity to meet fellow hackers and make teams of up to 4—find some new friends, bring yours, or work alone.
 
-- **Who runs this? Is it supervised? 👨‍🏫**
-  We’re independently-organized by high schoolers, mostly from Ad Astra Hack Club, sponsored via a nonprofit called [Hack Club](https://hackclub.com/). We'll have many mentors to help you with any questions and you can always ask anyone in the Slack!
+-   **What should I bring? 🧳**
+    Plan to bring a student ID, computer (any kind), chargers, anything for your hack (e.g. hardware), and enthusiasm! We'll provide snacks and meals, so you don't have to worry about that!
+
+-   **Who runs this? Is it supervised? 👨‍🏫**
+    We’re independently-organized by high schoolers, mostly from Ad Astra Hack Club, sponsored via a nonprofit called [Hack Club](https://hackclub.com/). We'll have many mentors to help you with any questions and you can always ask anyone in the Slack!
 
 </FAQ>
 </Callout>
+
 
 ## Sponsors
 
@@ -98,40 +128,33 @@ Underrepresented students are systematically discouraged from pursuing tech. Sch
 
 ### Additional support from
 
-<Sponsors
-section="additionalSupport"
-sx={{
-    styles: {
-      a: {
-        ':hover, :focus': {
-          color: 'lemonade'
-        }
-      }
-    }
-  }} />
+<Sponsors section="additionalSupport" />
 
 ## Judges
 
 Judges will look over your project and evaluate it based on certain factors, such as impact, design, and utility. Interested in being a judge or mentor? [Email](mailto:claire@angelhacks.org) us!
+
 <Team sx={{ mt: [3, 4] }}>
 
-- ![David Liberman](https://angelhacks.org/static/profiles/david.png)
 
-  **David Liberman** _Co-founder of Frank.ly, lead. he/him_
+-   ![David Liberman](https://angelhacks.org/static/profiles/david.png)
 
-- ![Daniil Liberman](https://angelhacks.org/static/profiles/daniil.png)
+    **David Liberman** _Co-founder of Frank.ly, lead. he/him_
 
-  **Daniil Liberman** _Co-founder of Frank.ly, lead. he/him_
+-   ![Daniil Liberman](https://angelhacks.org/static/profiles/daniil.png)
 
-- ![Peter Griggs](https://angelhacks.org/static/profiles/peter.png)
+    **Daniil Liberman** _Co-founder of Frank.ly, lead. he/him_
 
-  **Peter Griggs** _Co-Founder of DeepAI. he/him_
+-   ![Peter Griggs](https://angelhacks.org/static/profiles/peter.png)
 
-- ![Tom Preston-Werner](https://angelhacks.org/static/profiles/tom.png)
+    **Peter Griggs** _Co-Founder of DeepAI. he/him_
 
-  **Tom Preson-Werner** _Creator of Github and Gravatar. he/him_
+-   ![Tom Preston-Werner](https://angelhacks.org/static/profiles/tom.png)
+
+    **Tom Preson-Werner** _Creator of Github and Gravatar. he/him_
 
 </Team>
+
 
 ## Team
 
@@ -139,40 +162,45 @@ AngelHacks is primarily run by a few students at the [Ad Astra](https://www.adas
 
 <Team sx={{ mt: [3, 4] }}>
 
-- ![Claire](https://angelhacks.org/static/profiles/claire.jpg)
 
-  **Claire Wang** _Executive Director, founder. she/her_
+-   ![Claire](https://angelhacks.org/static/profiles/claire.jpg)
 
-- ![Kai Musk](https://angelhacks.org/static/profiles/kai.png)
+    **Claire Wang** _Executive Director, founder. she/her_
 
-  **Kai Musk** _Executive Director, co-founder. he/him_
+-   ![Kai Musk](https://angelhacks.org/static/profiles/kai.png)
 
-- ![Damian Musk](https://angelhacks.org/static/profiles/damian.jpg)
+    **Kai Musk** _Executive Director, co-founder. he/him_
 
-  **Damian Musk** _Executive Director, co-founder. he/him_
+-   ![Damian Musk](https://angelhacks.org/static/profiles/damian.jpg)
+
+    **Damian Musk** _Executive Director, co-founder. he/him_
 
 </Team>
+
 
 ### Other Team Members
 
 <Team sx={{ mb: [4, 5] }}>
 
-- ![Yasper](./static/profiles/yasper.jpg)
 
-  **Yasper DeJong** _Regional Coordinator. he/him_
+-   ![Yasper](./static/profiles/yasper.jpg)
 
-- ![Neel](https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fneel.jpg?v=1566231402477)
+    **Yasper DeJong** _Regional Coordinator. he/him_
 
-  **Neel Redkar** _Technology. he/him_
+-   ![Neel](https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fneel.jpg?v=1566231402477)
 
-- ![Ryan](https://angelhacks.org/static/profiles/ryan.jpg)
+    **Neel Redkar** _Technology. he/him_
 
-  **Ryan Catullo** _Outreach. he/him_
+-   ![Ryan](https://angelhacks.org/static/profiles/ryan.jpg)
 
-- ![Jacob](https://angelhacks.org/static/profiles/jacob.jpeg)
-  
-  **Jacob Haap** _Logistics. he/him_
-  
+    **Ryan Catullo** _Outreach. he/him_
+
+-   ![Jacob](https://angelhacks.org/static/profiles/jacob.jpeg)
+
+    **Jacob Haap** _Logistics. he/him_
+
 </Team>
 
+
 </Container>
+
