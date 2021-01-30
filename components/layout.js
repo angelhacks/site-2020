@@ -75,8 +75,9 @@ export default props => {
         {/* <Link href="/about">
           <A variant="styles.navitem">About</A>
         </Link> */}
-        <A color="primary" href="https://2019.angelhacks.org" variant="styles.navitem">2019 Site</A>
-        <A color="primary" href="https://andover.angelhacks.org" variant="styles.navitem">Andover</A>
+        <A color="primary" sx={{
+          display: ["none", "none", "block", "block"]
+        }} href="https://2019.angelhacks.org" variant="styles.navitem">2019 Site</A>
         <Link href="/gallery">
           <A variant="styles.navitem">Gallery</A>
         </Link>
