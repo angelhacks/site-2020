@@ -29,20 +29,25 @@ const data = {
     {
       name: 'Sticker Mule',
       link: 'https://stickermule.com/',
-      image: 
+      image:
         'https://angelhacks.org/static/stickermule-logo.png'
     },
     {
       name: 'DeepAI',
       link: 'https://deepai.org/',
-      image: 
+      image:
         'https://angelhacks.org/static/deepai-logo.png'
     },
     {
       name: 'Github',
       link: 'https://github.com/',
-      image: 
+      image:
         'https://angelhacks.org/static/Github-logo.png'
+    },
+    {
+      name: 'Inside Dev',
+      link: 'http://inside.com',
+      image: 'https://angelhacks.org/static/inside-dev.png'
     },
   ]
 }
@@ -64,7 +69,7 @@ const Base = styled(Box)`
     max-width: 75%;
     max-height: ${props => (props.section === 'sponsors' ? 6 : 4)}rem;
     ${props =>
-      props.colorMode === 'dark' && `filter: invert() hue-rotate(180deg);`}
+    props.colorMode === 'dark' && `filter: invert() hue-rotate(180deg);`}
   }
 `
 
