@@ -24,6 +24,11 @@ const data = {
       link: 'https://frank.ly',
       image: 'https://angelhacks.org/static/frank-logo.png'
     },
+    {
+      name: 'GoGuardian',
+      link: 'https://www.goguardian.com/',
+      image: 'https://angelhacks.org/static/goguardian-logo.png'
+    },
   ],
   additionalSupport: [
     {
@@ -63,6 +68,16 @@ const data = {
       name: 'Pinnacle',
       link: 'https://pinnacle.us.org/',
       image: 'https://angelhacks.org/static/pinnacle.png'
+    },
+    {
+      name: 'National Space Society',
+      link: 'https://space.nss.org/',
+      image: 'https://angelhacks.org/static/nss-logo.png'
+    },
+    {
+      name: 'Balsamiq',
+      link: 'https://balsamiq.com/',
+      image: 'https://angelhacks.org/static/balsamiq-logo.png'
     },
   ]
 }
