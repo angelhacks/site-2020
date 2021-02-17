@@ -49,6 +49,21 @@ const data = {
       link: 'http://inside.com',
       image: 'https://angelhacks.org/static/inside-dev.png'
     },
+    {
+      name: '4Space',
+      link: 'http://4space.co',
+      image: 'https://angelhacks.org/static/4Space.jpg'
+    },
+    {
+      name: 'Rolling Robots',
+      link: 'http://rollingrobots.com',
+      image: 'https://angelhacks.org/static/rolling-robots.png'
+    },
+    {
+      name: 'Pinnacle',
+      link: 'https://pinnacle.us.org/',
+      image: 'https://angelhacks.org/static/pinnacle.png'
+    },
   ]
 }
 
