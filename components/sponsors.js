@@ -22,12 +22,12 @@ const data = {
     {
       name: 'David and Daniil Libermans',
       link: 'https://frank.ly',
-      image: 'https://angelhacks.org/static/frank-logo.png'
+      image: '/frank-logo.png'
     },
     {
       name: 'GoGuardian',
       link: 'https://www.goguardian.com/',
-      image: 'https://angelhacks.org/static/goguardian-logo.png'
+      image: '/goguardian-logo.png'
     },
   ],
   additionalSupport: [
@@ -35,49 +35,49 @@ const data = {
       name: 'Sticker Mule',
       link: 'https://stickermule.com/',
       image:
-        'https://angelhacks.org/static/stickermule-logo.png'
+        '/stickermule-logo.png'
     },
     {
       name: 'DeepAI',
       link: 'https://deepai.org/',
       image:
-        'https://angelhacks.org/static/deepai-logo.png'
+        '/deepai-logo.png'
     },
     {
       name: 'Github',
       link: 'https://github.com/',
       image:
-        'https://angelhacks.org/static/Github-logo.png'
+        '/Github-logo.png'
     },
     {
       name: 'Inside Dev',
       link: 'http://inside.com',
-      image: 'https://angelhacks.org/static/inside-dev.png'
+      image: '/inside-dev.png'
     },
     {
       name: '4Space',
       link: 'http://4space.co',
-      image: 'https://angelhacks.org/static/4Space.jpg'
+      image: '/4Space.jpg'
     },
     {
       name: 'Rolling Robots',
       link: 'http://rollingrobots.com',
-      image: 'https://angelhacks.org/static/rolling-robots.png'
+      image: '/rolling-robots.png'
     },
     {
       name: 'Pinnacle',
       link: 'https://pinnacle.us.org/',
-      image: 'https://angelhacks.org/static/pinnacle.png'
+      image: '/pinnacle.png'
     },
     {
       name: 'National Space Society',
       link: 'https://space.nss.org/',
-      image: 'https://angelhacks.org/static/nss-logo.png'
+      image: '/nss-logo.png'
     },
     {
       name: 'Balsamiq',
       link: 'https://balsamiq.com/',
-      image: 'https://angelhacks.org/static/balsamiq-logo.png'
+      image: '/balsamiq-logo.png'
     },
   ]
 }
