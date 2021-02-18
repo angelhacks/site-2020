@@ -1,11 +1,11 @@
 import {
-	Banner,
-	List,
-	Container,
-	Callout,
-	Gallery,
-	FAQ,
-	Team,
+  Banner,
+  List,
+  Container,
+  Callout,
+  Gallery,
+  FAQ,
+  Team,
 } from "../components/blocks";
 import { Header, Schedule } from "../components/blocks";
 import { Box, Button } from "rebass";
@@ -16,17 +16,27 @@ import Photo from "../components/photo";
 
 <Banner>
 
-
 # AngelHacks
 
 ## Do you want to learn coding? Make something crazy? Meet others (virtually)? Earn insanely cool prizes? Sign up!
 
 February 26-28, 2021
 
-[Register](https://www.angelhacks.org/register)
+<Link href="/register">
+  <Button
+    sx={{
+      transition: "all 0.2s",
+      ":hover": {
+        cursor: "pointer",
+        transform: "scale(1.1)",
+      },
+    }}
+  >
+    Register
+  </Button>
+</Link>
 
 </Banner>
-
 
 <Container
 width="narrow"
@@ -44,29 +54,21 @@ sx={{
     }
   }}>
 
-
 **AngelHacks 2.0 will be over the course of 2 days.**
 You'll first choose which workshop you want to join, learn all the skills required with your mentor, get "speed-sorted" into a team, and come out the other side with an amazing project and (hopefully) a killer prize!
 
 </Container>
 
-
 <Gallery>
 
-
+<Photo showAlt alt="Sticker Exchange!" src="/venue/stickexchange.jpg" />
 <Photo
-	showAlt
-	alt="Sticker Exchange!"
-	src="/venue/stickexchange.jpg"
-/>
-<Photo
-	showAlt
-	alt="Students build projects in groups"
-	src="https://lh3.googleusercontent.com/OhKms3fdlopgcSVkKfzzwWyTR9iehbYTV53hU3gNBACz9GCodbyFLRYrNecnJ0R2SkutT-wZbTWCljW7E20CD9XCYek4A_oV06UA5NFZQDeIYsUJ-53ZAC7Yno5D7wu5Fald13yXn1gKcpJWx0d0eZkQx52-6Hh8Ffb8kyfaF1E7f53EAl01Lo30q1BeIFT-JOkBjmXh3VTRfCPcvDF4AUsWwjdKkKM17Yw0BZE0VKIherAXXiwpj_EeZXs9ZEWORzXqxggW_v_wylzlmPchUEBaaMEqAGYuVGzNiBpLdXNrws7P1R8rQKAmeTSQ_JkZLuONP9-IPcczxvGoiHzK_pjr1qJGwJcn4VAawFnXDDEr7Qf89xmVwUFXhQhlpBMD0ZjSdiXySMxs5v14-dBDVbW3HKntxagquQ7ZBV9TIm__r9pHpMKwDhMFKqGQvs7uQeij3DhrZyPNf2c4pCZ2kZu3MtGmJSrCWitdWpzAHRBeW6FzdQ0TTwpjqPj7UEKia1P8VZNmwZ3acz6sFsD-tm7j7761KJyTMtxemxpgO1PkewAs7GSySrU2icAmXf3eXqtdhoRe670xUKszTkM750-uNpWFRdsyj1Lg70cgpC3oqb73JEg7H3EiVVnLLKsZ1g5Z8fGYk0BYuTEX4cWE87AQXx7g6M6Tbjdxh-eXtKvGLdQpwWDyP6S3SViPPKCMCLRCNdOEWzxeaVZMYutoGAnZwwvJ2vQtlAPTc1lDQUbpTBSqKQ=w1910-h1432-no"
+  showAlt
+  alt="Students build projects in groups"
+  src="https://lh3.googleusercontent.com/OhKms3fdlopgcSVkKfzzwWyTR9iehbYTV53hU3gNBACz9GCodbyFLRYrNecnJ0R2SkutT-wZbTWCljW7E20CD9XCYek4A_oV06UA5NFZQDeIYsUJ-53ZAC7Yno5D7wu5Fald13yXn1gKcpJWx0d0eZkQx52-6Hh8Ffb8kyfaF1E7f53EAl01Lo30q1BeIFT-JOkBjmXh3VTRfCPcvDF4AUsWwjdKkKM17Yw0BZE0VKIherAXXiwpj_EeZXs9ZEWORzXqxggW_v_wylzlmPchUEBaaMEqAGYuVGzNiBpLdXNrws7P1R8rQKAmeTSQ_JkZLuONP9-IPcczxvGoiHzK_pjr1qJGwJcn4VAawFnXDDEr7Qf89xmVwUFXhQhlpBMD0ZjSdiXySMxs5v14-dBDVbW3HKntxagquQ7ZBV9TIm__r9pHpMKwDhMFKqGQvs7uQeij3DhrZyPNf2c4pCZ2kZu3MtGmJSrCWitdWpzAHRBeW6FzdQ0TTwpjqPj7UEKia1P8VZNmwZ3acz6sFsD-tm7j7761KJyTMtxemxpgO1PkewAs7GSySrU2icAmXf3eXqtdhoRe670xUKszTkM750-uNpWFRdsyj1Lg70cgpC3oqb73JEg7H3EiVVnLLKsZ1g5Z8fGYk0BYuTEX4cWE87AQXx7g6M6Tbjdxh-eXtKvGLdQpwWDyP6S3SViPPKCMCLRCNdOEWzxeaVZMYutoGAnZwwvJ2vQtlAPTc1lDQUbpTBSqKQ=w1910-h1432-no"
 />
 
 <Box variant="card">
-
 
 ## A place for everyone.
 
@@ -74,51 +76,47 @@ Underrepresented students are systematically discouraged from pursuing tech. Sch
 
 </Box>
 
-
 <Photo
-	showAlt
-	alt="Student's presented their ideas to the crowd"
-	src="https://lh3.googleusercontent.com/zofpd6vj_x_W0gcp1QELEMcOdBbS5vaeb1E3-rbMogsqzo57HMJ0o63vlyA7Q9I5N6F94wHuK7I8JJYRShajPd56XZyclGZQWsUAOUGn-76JiYEfDf_DEgo_wMCn2tp5IwmkOc4bYpXcEJTlBuVf1qBjvxL3e8bmQNvUV6NLIYFqudfHISiHR1K8ssaTBtB3l48dSxND6qFsx7wMbk-J20MYfaV6vTKJYW8wQ-WdQzlYwMhdZMwXkmftgXz9sjyQw0S0tZ8wSCNMOQqwIbeYCSi6z6uNgW-Ur41FBPaFE0m-u6EjRW0vNqiosla0fMfmwq4xEIIDK2RJ184JSJyC7zrx890jZDL5QyS4X_4lbld40nmUuTriAR-8o6XAgEgly6uQENmJDyTd2CCmnuzZZwv6bBg7UhY9lLwv0lpmdzHiN5CCf7xbrjcChGwjgUcJ6edutstLbVjWj_hpZtF-ETDzi9HBlGrbJ8NJLolbhNy9vjBNV_WXH9JK3jXemr7vhwNcKxRahBOtAhKWIpoZWi2LvwrArpfL2VBT47Zj5fr-mG0w5ckT6bqPp9pnTcZqJSA4L1BZ_uIfP4PrjCifZwITnnCZ2ng1OIKMRpjo-bcboRksNRHa3GTaVrbq9Hl6SdnIimc1tSxRwGT8Omh8QK-DMoQvW95-xqM6T3k8PJd_ifdEkcyndql1N0_-5KHnSi47dmSH3VwurNkAyFqXv9PMafxPMKmQKzCiy6s_Yq-MtsoeZA=w1910-h1432-no"
+  showAlt
+  alt="Student's presented their ideas to the crowd"
+  src="https://lh3.googleusercontent.com/zofpd6vj_x_W0gcp1QELEMcOdBbS5vaeb1E3-rbMogsqzo57HMJ0o63vlyA7Q9I5N6F94wHuK7I8JJYRShajPd56XZyclGZQWsUAOUGn-76JiYEfDf_DEgo_wMCn2tp5IwmkOc4bYpXcEJTlBuVf1qBjvxL3e8bmQNvUV6NLIYFqudfHISiHR1K8ssaTBtB3l48dSxND6qFsx7wMbk-J20MYfaV6vTKJYW8wQ-WdQzlYwMhdZMwXkmftgXz9sjyQw0S0tZ8wSCNMOQqwIbeYCSi6z6uNgW-Ur41FBPaFE0m-u6EjRW0vNqiosla0fMfmwq4xEIIDK2RJ184JSJyC7zrx890jZDL5QyS4X_4lbld40nmUuTriAR-8o6XAgEgly6uQENmJDyTd2CCmnuzZZwv6bBg7UhY9lLwv0lpmdzHiN5CCf7xbrjcChGwjgUcJ6edutstLbVjWj_hpZtF-ETDzi9HBlGrbJ8NJLolbhNy9vjBNV_WXH9JK3jXemr7vhwNcKxRahBOtAhKWIpoZWi2LvwrArpfL2VBT47Zj5fr-mG0w5ckT6bqPp9pnTcZqJSA4L1BZ_uIfP4PrjCifZwITnnCZ2ng1OIKMRpjo-bcboRksNRHa3GTaVrbq9Hl6SdnIimc1tSxRwGT8Omh8QK-DMoQvW95-xqM6T3k8PJd_ifdEkcyndql1N0_-5KHnSi47dmSH3VwurNkAyFqXv9PMafxPMKmQKzCiy6s_Yq-MtsoeZA=w1910-h1432-no"
 />
 
 </Gallery>
 
-
 <Container>
-
 
 ## FAQ
 
 <Callout sx={{ mx: [null, null, -3, -4] }}>
 <FAQ>
 
+- **Could I see last year's website?**
+  Yup! It's at [2019.angelhacks.org](https://2019.angelhacks.org). Thanks for being there last time, and we hope to see you again! You can find the recap video on youtube, [here](https://www.youtube.com/watch?v=rv_UycMxEsQ).
 
--   **Could I see last year's website?**
-    Yup! It's at [2019.angelhacks.org](https://2019.angelhacks.org). Thanks for being there last time, and we hope to see you again! You can find the recap video on youtube, [here](https://www.youtube.com/watch?v=rv_UycMxEsQ).
+- **How much does it cost? 💸**
+  Nothing! Registration and attendance are 100% free, and we'll mail you swag afterwards! We'll even mail super cool prizes to the top teams!
 
--   **How much does it cost? 💸**
-    Nothing! Registration and attendance are 100% free, and we'll mail you swag afterwards! We'll even mail super cool prizes to the top teams!
+- **Who can participate? 🔭**
+  Any current student in any age! If you’re under/over that age, [email us](mailto:hello@angelhacks.org) & we’ll see what we can do. And if you're interested in mentoring or helping out, hit us up too!
 
--   **Who can participate? 🔭**
-    Any current student in any age! If you’re under/over that age, [email us](mailto:hello@angelhacks.org) & we’ll see what we can do. And if you're interested in mentoring or helping out, hit us up too!
+- **Hacking‽ Is that safe? 👨🏿‍💻**
+  No, we’re not “hacking” servers. The word is being constructively redefined for coding—apps, games, websites. It’s safe, supervised, & entirely educational. Now go look somewhere else, RSA. Or... the FBI?
 
--   **Hacking‽ Is that safe? 👨🏿‍💻**
-    No, we’re not “hacking” servers. The word is being constructively redefined for coding—apps, games, websites. It’s safe, supervised, & entirely educational. Now go look somewhere else, RSA. Or... the FBI? 
+- **What can I make? 🤖**
+  Anything! A website, app, game, hardware hack, you name it. Judges will rate projects on creativity, technical skill demonstrated, polish, utility, and, last but not least, impact on the community. We also have specific tracks based on the prizes (you can find them on our [devpost](http://angelhacks-2.devpost.com/))!
 
--   **What can I make? 🤖**
-    Anything! A website, app, game, hardware hack, you name it. Judges will rate projects on creativity, technical skill demonstrated, polish, utility, and, last but not least, impact on the community. We also have specific tracks based on the prizes (you can find them on our [devpost](http://angelhacks-2.devpost.com/))!
+- **What if I’m new to coding? 👾**
+  At AngelHacks, complete beginners are not only welcome, but expected! Learn as you go with our intro workshops & mentors. Come in, choose a workshop, learn the project, and then build upon it!
 
--   **What if I’m new to coding? 👾**
-    At AngelHacks, complete beginners are not only welcome, but expected! Learn as you go with our intro workshops & mentors. Come in, choose a workshop, learn the project, and then build upon it! 
+- **Do I need a team? 👨‍👧‍👧**
+  Nope! You’ll have an opportunity to meet fellow hackers and make teams of up to 4—find some new friends, bring yours, or work alone.
 
--   **Do I need a team? 👨‍👧‍👧**
-    Nope! You’ll have an opportunity to meet fellow hackers and make teams of up to 4—find some new friends, bring yours, or work alone.
+- **How do I get started? 🧳**
+  Hop [onto our discord server](https://discord.gg/t29JHWGkmw) for updates, workshop announcements, and links! Feel free to [email us](mailto:hello@angelhacks.org) about any questions or concerns you have, or ask in the discord!
 
--   **How do I get started? 🧳**
-    Hop [onto our discord server](https://discord.gg/t29JHWGkmw) for updates, workshop announcements, and links! Feel free to [email us](mailto:hello@angelhacks.org) about any questions or concerns you have, or ask in the discord!
-
--   **Who runs this? Is it supervised? 👨‍🏫**
-    We’re independently-organized by high schoolers sponsored via a nonprofit called [Hack Club](https://hackclub.com/). We'll have many mentors to help you with any questions and you can always ask anyone in the Discord, just ping the @mentor or @helper role!
+- **Who runs this? Is it supervised? 👨‍🏫**
+  We’re independently-organized by high schoolers sponsored via a nonprofit called [Hack Club](https://hackclub.com/). We'll have many mentors to help you with any questions and you can always ask anyone in the Discord, just ping the @mentor or @helper role!
 
 </FAQ>
 </Callout>
@@ -128,34 +126,32 @@ Underrepresented students are systematically discouraged from pursuing tech. Sch
 <Callout sx={{ mx: [null, null, -3, -4] }}>
 <FAQ>
 
+- **General Winner - AirPods**
+  General winner! You'll each win a pair of airpods (up to 4 team members).
 
+- **Pinnacle Qualification - Best Hack**
+  Each winning team member will receive tickets to Pinnacle, which invites the world’s top 50 collegiate hackathons and top 5 high school hackathons for an epic finale event in fall 2021. More information can be found here: [pinnacle.us.org](https://pinnacle.us.org).
 
--   **General Winner - AirPods**
-    General winner! You'll each win a pair of airpods (up to 4 team members).
+- **Most Innovative Hack - Tesla Factory Tour**
+  Get a tesla factory tour once the quarantine limitations are over! We'll reimburse a small portion of the flight if needed. There may be some regulations involved.
 
--   **Pinnacle Qualification - Best Hack**
-    Each winning team member will receive tickets to Pinnacle, which invites the world’s top 50 collegiate hackathons and top 5 high school hackathons for an epic finale event in fall 2021. More information can be found here: [pinnacle.us.org](https://pinnacle.us.org).
+- **Second/Third Prize (2)**
+  You each win an Amazon Echo Dot, 4th generation! Given to 2 teams though possibly more!
 
--   **Most Innovative Hack - Tesla Factory Tour**
-    Get a tesla factory tour once the quarantine limitations are over! We'll reimburse a small portion of the flight if needed. There may be some regulations involved.
+- **Weirdest and Craziest Hack**
+  Each team member gets a year's worth of ramen! Yes, really. If you'd like, we can try exchanging it for something you might prefer more.
 
--   **Second/Third Prize (2)**
-    You each win an Amazon Echo Dot, 4th generation! Given to 2 teams though possibly more!
+- **Best Education Hack (2)**
+  Each team member gets a Sphero, those super cool moving balls that you can program. (And are pretty cute!)
 
--   **Weirdest and Craziest Hack**
-    Each team member gets a year's worth of ramen! Yes, really. If you'd like, we can try exchanging it for something you might prefer more.
+- **Workshop Winner - Speakers (2)**
+  Win a JBL Flip if you win within your workshop and not qualify for another prize! Your workshop mentor will nominate you! This is given to 2+ winning teams, depending on circumstances.
 
--   **Best Education Hack (2)**
-    Each team member gets a Sphero, those super cool moving balls that you can program. (And are pretty cute!)
+- **Most Daring and Niche Project**
+  Win your age in pounds of slime! (i.e., if you're 16, you'll win 16 pounds of slime -- we can converse afterwards on specs). This is for the craziest and most useless/useful (!?) hack :)
 
--   **Workshop Winner - Speakers (2)**
-    Win a JBL Flip if you win within your workshop and not qualify for another prize! Your workshop mentor will nominate you! This is given to 2+ winning teams, depending on circumstances. 
-
--   **Most Daring and Niche Project**
-    Win your age in pounds of slime! (i.e., if you're 16, you'll win 16 pounds of slime -- we can converse afterwards on specs). This is for the craziest and most useless/useful (!?) hack :)
-
--   **Attending**
-    You'll win an Inside Dev subscription, swag packs, t-shirts, Balsamiq subscriptions, pitch chances, and more! Additionally, we'll have pizza, girl scout cookies, and amazon gift cards given to teams who win mini-activities (like Minecraft or Wikipedia races) during the hackathon!
+- **Attending**
+  You'll win an Inside Dev subscription, swag packs, t-shirts, Balsamiq subscriptions, pitch chances, and more! Additionally, we'll have pizza, girl scout cookies, and amazon gift cards given to teams who win mini-activities (like Minecraft or Wikipedia races) during the hackathon!
 
 </FAQ>
 </Callout>
@@ -174,37 +170,37 @@ Judges will look over your project and evaluate it based on certain factors, suc
 
 <Team sx={{ mt: [3, 4] }}>
 
+- ![David Liberman](/profiles/david.png)
 
--   ![David Liberman](/profiles/david.png)
+  **David Liberman** _Co-founder of Frank.ly, lead. he/him_
 
-    **David Liberman** _Co-founder of Frank.ly, lead. he/him_
+- ![Daniil Liberman](/profiles/daniil.png)
 
--   ![Daniil Liberman](/profiles/daniil.png)
+  **Daniil Liberman** _Co-founder of Frank.ly, lead. he/him_
 
-    **Daniil Liberman** _Co-founder of Frank.ly, lead. he/him_
+- ![Peter Griggs](/profiles/peter.png)
 
--   ![Peter Griggs](/profiles/peter.png)
+  **Peter Griggs** _Co-Founder of DeepAI. he/him_
 
-    **Peter Griggs** _Co-Founder of DeepAI. he/him_
+- ![Tom Preston-Werner](/profiles/tom.png)
 
--   ![Tom Preston-Werner](/profiles/tom.png)
+  **Tom Preston-Werner** _Creator of Github and Gravatar. he/him_
 
-    **Tom Preston-Werner** _Creator of Github and Gravatar. he/him_
+- ![Bing Jiang](/profiles/bing.png)
 
--   ![Bing Jiang](/profiles/bing.png)
+  **Bing Jiang** _Co-Founder of Rolling Robots. she/her_
 
-    **Bing Jiang** _Co-Founder of Rolling Robots. she/her_
-
--   ![Chantelle Baier](/profiles/chantelle.jpg)
-
+- ![Chantelle Baier](/profiles/chantelle.jpg)
     **Chantelle Baier** _Founder of 4Space and NSS. she/her_
 
+<<<<<<< HEAD
 - ![Peter Dignard](/profiles/PeterDignard.jpg)
     **Peter Dignard** _Senior Associate Director of Admission at Phillips Academy Andover. he/him_
 
+=======
+>>>>>>> fc6055e4212999734cbb98bf29eaf37651461462
 
 </Team>
-
 
 ## Team
 
@@ -212,45 +208,40 @@ AngelHacks is primarily run by students, like you!
 
 <Team sx={{ mt: [3, 4] }}>
 
+- ![Claire](/profiles/claire.jpg)
 
--   ![Claire](/profiles/claire.jpg)
+  **Claire Wang** _Executive Director, founder. she/her_
 
-    **Claire Wang** _Executive Director, founder. she/her_
+- ![Kai](/profiles/kai.png)
 
--   ![Kai](/profiles/kai.png)
+  **Kai** _Executive Director, co-founder. he/him_
 
-    **Kai** _Executive Director, co-founder. he/him_
+- ![Damian](/profiles/damian.jpg)
 
--   ![Damian](/profiles/damian.jpg)
-
-    **Damian** _Executive Director, co-founder. he/him_
+  **Damian** _Executive Director, co-founder. he/him_
 
 </Team>
-
 
 ### Other Team Members
 
 <Team sx={{ mb: [4, 5] }}>
 
+- ![Neel](https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fneel.jpg?v=1566231402477)
 
--   ![Neel](https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fneel.jpg?v=1566231402477)
+  **Neel Redkar** _Technology. he/him_
 
-    **Neel Redkar** _Technology. he/him_
+- ![Jacob](/profiles/jacob.jpeg)
 
--   ![Jacob](/profiles/jacob.jpeg)
+  **Jacob Haap** _Logistics. he/him_
 
-    **Jacob Haap** _Logistics. he/him_
+- ![Sarthak](https://sarthakmohanty.me/sarthak.jpg)
 
--   ![Sarthak](https://sarthakmohanty.me/sarthak.jpg)
+  **Sarthak Mohanty** _Technology. he/him_
 
-    **Sarthak Mohanty** _Technology. he/him_
+- ![Ryan](/profiles/ryan.jpg)
 
--   ![Ryan](/profiles/ryan.jpg)
-
-    **Ryan Catullo** _Outreach. he/him_
+  **Ryan Catullo** _Outreach. he/him_
 
 </Team>
 
-
 </Container>
-
