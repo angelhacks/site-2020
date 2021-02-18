@@ -6,7 +6,7 @@ export default ({ size = 50, light = false, ...props }) => (
     <A sx={{ cursor: 'pointer', lineHeight: 0 }}>
       <Image
         {...props}
-        src="/static/logo-inverted.png"
+        src="/logo-inverted.png"
         alt="AngelHacks avatar"
         width={size}
         height={size}
