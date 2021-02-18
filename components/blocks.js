@@ -36,6 +36,10 @@ export const Banner = props => (
         },
         li: {
           mr: 3
+        },
+        a:{
+          color: 'primary',
+          fontWeight: 'medium'
         }
       }}
     />
