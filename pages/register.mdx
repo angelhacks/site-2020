@@ -1,15 +1,40 @@
-import { Header, Container, Callout } from "../components/blocks";
+import { Header, Container, Callout, Banner } from "../components/blocks";
 
-<Header sx={{ 
-	bg: 'coolBg', 
-	mb: 0 }} width="narrow">
 
+
+
+<Banner
+	sx={{
+		bg:'coolBg'
+	}}>
 
 # Register
 
-## Your ticket is free, including everything! See you in February and make sure to join our devpost at <a href="https://angelhacks-2.devpost.com">angelhacks-2.devpost.com</a>!
+Your ticket is free, including everything! See you in February and make sure to join our devpost at <a 
+	href="https://angelhacks-2.devpost.com">angelhacks-2.devpost.com</a>!
 
-Thanks for signing up! See you on the discord!
+Thanks for signing up! See you on the discord at <a href="https://discord.gg/t29JHWGkmw">AngelHacks Discord</a>!
+
+</Banner>
+
+
+<Container
+width="narrow"
+sx={{
+    p: {
+      fontSize: [2, 3, 4],
+      color: 'muted',
+      mb: [4, 5],
+      lineHeight: 1.375,
+      letterSpacing: '-.009em'
+    },
+    strong: {
+      fontWeight: 'medium',
+      color: 'text'
+    }
+  }}>
+
+
 
 <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
 <iframe
@@ -21,5 +46,5 @@ Thanks for signing up! See you on the discord!
 	height="1886"
 ></iframe>
 
-</Header>
+</Container>
 
