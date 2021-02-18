@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import App from 'next/app'
+import App, { Container } from 'next/app'
 import { ThemeProvider } from 'theme-ui'
 import { Global } from '@emotion/core'
 import Meta from '../components/meta'
@@ -22,7 +22,7 @@ export default class extends App {
     const { Component, pageProps } = this.props
 
     return (
-      <>
+      <Container>
         <Meta />
         <Head>
           <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900" rel="stylesheet" />
@@ -50,7 +50,7 @@ export default class extends App {
             <Component {...pageProps} />
           </Layout>
         </ThemeProvider>
-      </>
+      </Container>
     )
   }
 }
