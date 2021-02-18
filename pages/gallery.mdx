@@ -11,25 +11,20 @@ import {
 import { Box } from "rebass";
 import Photo from "../components/photo";
 
-<Header sx={{ bg: 'coolBg', mb: 0 }} width="narrow">
+<Banner sx={{ bg: 'coolBg'}} >
 
 
 # Media Gallery
 
-<Callout
-	sx={{
-		px: 4,
-		py: 4,
-		mt: [3, 4],
-		mb: 0,
-		maxWidth: "95vw",
-		color: "darkless",
-	}}
->
-	Some amazing picture and videos from last year, our first iteration!
-</Callout>
 
-<Gallery>
+Some amazing picture and videos from last year, our first iteration! Thank you to all that showed up :)
+
+
+</Banner>
+
+<Gallery sx={{
+	alignItems: 'center',
+}}>
 
 
 <Photo
@@ -98,7 +93,4 @@ import Photo from "../components/photo";
 	src="/venue/venue7.jpg"
 />
 </Gallery>
-
-
-</Header>
 
