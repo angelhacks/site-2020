@@ -29,6 +29,11 @@ const data = {
       link: 'https://www.goguardian.com/',
       image: '/goguardian-logo.png'
     },
+    {
+      name: 'InspiritAI',
+      link: 'https://www.inspiritai.com/',
+      image: '/inspiritai.png'
+    },
   ],
   additionalSupport: [
     {
@@ -78,6 +83,21 @@ const data = {
       name: 'Balsamiq',
       link: 'https://balsamiq.com/',
       image: '/balsamiq-logo.png'
+    },
+    {
+      name: 'Memorize.AI',
+      link: 'https://memorize.ai/',
+      image: '/memorizeai.png'
+    },
+    {
+      name: 'CynderHost',
+      link: 'https://cynderhost.com/',
+      image: '/cynderhost.png'
+    },
+    {
+      name: 'Advin Servers',
+      link: 'https://advinservers.com/',
+      image: '/advin.png'
     },
   ]
 }
