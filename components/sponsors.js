@@ -121,7 +121,7 @@ const data = {
     {
       name: 'Comcast',
       link: 'https://corporate.comcast.com/',
-      image: '/comcast-logo.png'
+      image: '/comcast-logo.jpeg'
     },  
   ]
 }
