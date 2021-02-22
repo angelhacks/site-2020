@@ -37,7 +37,7 @@ const data = {
     {
       name: 'H&M',
       link: 'https://www2.hm.com/en_us/index.html',
-      image: '/hm-logo.png'
+      image: '/hm-logo.jpg'
     },
   ],
   additionalSupport: [
