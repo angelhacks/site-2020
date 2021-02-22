@@ -119,9 +119,9 @@ const data = {
       image: '/illumination.png'
     },  
     {
-      name: 'Vercel',
-      link: 'https://vercel.com/',
-      image: '/vercel-logo.png'
+      name: 'Comcast',
+      link: 'https://corporate.comcast.com/',
+      image: '/comcast-logo.png'
     },  
   ]
 }
