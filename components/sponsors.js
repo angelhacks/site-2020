@@ -98,6 +98,10 @@ const data = {
       name: 'Advin Servers',
       link: 'https://advinservers.com/',
       image: '/advin.png'
+    },{
+      name: 'Vercel',
+      link: 'https://vercel.com/',
+      image: '/vercel.png'
     },
   ]
 }
