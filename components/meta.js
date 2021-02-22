@@ -3,7 +3,7 @@ import Head from 'next/head'
 export default ({
   title = 'AngelHacks – Dedicated to giving back!',
   description = 'A weekend-long workshop-oriented hackathon for any and all beginners in the world!',
-  image = 'https://angelhacks.org/static/banner-inverted.png',
+  image = 'https://angelhacks.org/public/banner-inverted.png',
   url = 'https://angelhacks.org'
 }) => (
   <Head>
@@ -58,7 +58,7 @@ export default ({
             'Register today for a weekend of coding, fun, free swag, and prizes. AngelHacks will be on February 26-28, 2021 and open to all students at all ages!',
           isAccessibleForFree: true,
           url: 'https://angelhacks.org',
-          image: 'https://angelhacks.org/static/logo-inverted.png',
+          image: 'https://angelhacks.org/public/logo-inverted.png',
           location: {
             '@type': 'Place',
             name: 'Snapchat Headquarters',
