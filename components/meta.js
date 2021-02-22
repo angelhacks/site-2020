@@ -53,7 +53,7 @@ export default ({
           '@type': 'Event',
           name: 'AngelHacks',
           startDate: '2021-02-28T17:00',
-          endDate: '2020-02-26T9:00',
+          endDate: '2020-03-2T9:00',
           description:
             'Register today for a weekend of coding, fun, free swag, and prizes. AngelHacks will be on February 26-28, 2021 and open to all students at all ages!',
           isAccessibleForFree: true,
@@ -83,7 +83,7 @@ export default ({
             priceCurrency: 'USD',
             availability: 'https://schema.org/InStock',
             validFrom: '2020-05-01',
-            validThrough: '2020-12-27'
+            validThrough: '2020-3-1'
           },
           performer: {
             '@type': 'PerformingGroup',
