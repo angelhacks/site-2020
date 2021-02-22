@@ -34,6 +34,11 @@ const data = {
       link: 'https://www.inspiritai.com/',
       image: '/inspiritai.png'
     },
+    {
+      name: 'H&M',
+      link: 'https://www2.hm.com/en_us/index.html',
+      image: '/hm-logo.png'
+    },
   ],
   additionalSupport: [
     {
@@ -99,6 +104,21 @@ const data = {
       link: 'https://advinservers.com/',
       image: '/advin.png'
     },
+    {
+      name: 'Anomaly Science',
+      link: 'https://anomaly-science.com/',
+      image: '/anomaly-science.png'
+    },
+    {
+      name: 'Illumination Entertainment',
+      link: 'https://www.illuminationmacguff.com/',
+      image: '/illumination.png'
+    },  
+    {
+      name: 'Vercel',
+      link: 'https://vercel.com/',
+      image: '/vercel-logo.png'
+    },  
   ]
 }
 
