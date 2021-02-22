@@ -135,6 +135,7 @@ const Base = styled(Box)`
   );
   align-items: center;
   justify-content: center;
+  justify-items: center;
   margin-bottom: ${theme.space[4]}px;
   a {
     width: 100%;
