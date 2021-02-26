@@ -119,9 +119,9 @@ const data = {
       image: '/illumination.png'
     },  
     {
-      name: 'Comcast',
-      link: 'https://corporate.comcast.com/',
-      image: '/comcast-logo.jpeg'
+      name: 'Tesla',
+      link: 'https://tesla.com/',
+      image: '/tesla-logo.png'
     },  
   ]
 }
