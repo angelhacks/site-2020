@@ -34,11 +34,6 @@ const data = {
       link: 'https://www.inspiritai.com/',
       image: '/inspiritai.png'
     },
-    {
-      name: 'H&M',
-      link: 'https://www2.hm.com/en_us/index.html',
-      image: '/hm-logo.jpg'
-    },
   ],
   additionalSupport: [
     {
