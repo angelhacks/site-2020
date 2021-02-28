@@ -118,6 +118,11 @@ const data = {
       link: 'https://tesla.com/',
       image: '/tesla-logo.png'
     },  
+    {
+      name: 'Robots in Space',
+      link: 'https://robots-in.space/',
+      image: '/ris-logo.png'
+    }, 
   ]
 }
 
